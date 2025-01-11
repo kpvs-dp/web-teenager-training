@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      nav {
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 3px 5px #ccc;
+      }
+
+      ul {
+        display: flex;
+        list-style: none; /* 把點拿掉 */
+        gap: 10px;
+
+        margin-left: auto;
+      }
+
+      main {
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+      }
+
+      .box {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px 15px;
+        width: 300px;
+        line-height: 1.5;
+      }
+      .box a {
+        color: #39f;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>工作管理系統</h1>
+      <ul>
+        <li><a href="">刷新</a></li>
+        <li><a href="">狀態</a></li>
+        <li><a href="">設定</a></li>
+      </ul>
+    </nav>
+
+    <!-- main .box -->
+    <main>
+      <!-- div.box*4>div{姓名:}+div{年齡:18}+div>a*2 -->
+
+      <div class="box">
+        <div>姓名:Andy</div>
+        <div>年齡:18</div>
+        <div>
+          <a href="">修改</a>
+          <a href="">刪除</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div>姓名:Lucas</div>
+        <div>年齡:18</div>
+        <div>
+          <a href="">修改</a>
+          <a href="">刪除</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div>姓名:John</div>
+        <div>年齡:18</div>
+        <div>
+          <a href="">修改</a>
+          <a href="">刪除</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div>姓名:Jack</div>
+        <div>年齡:18</div>
+        <div>
+          <a href="">修改</a>
+          <a href="">刪除</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
